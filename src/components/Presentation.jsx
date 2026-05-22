@@ -14,7 +14,7 @@ export function Presentation({ setSectionRef }) {
           <p className="dedication">Made with 🤍 for Alisha</p>
           <h1>Our European Adventure</h1>
           <p className="subtitle">Milan to Naples — and every beautiful detour in between</p>
-          <p className="dedication">Aug 27 – Sep 12, 2026 · Italy · Croatia · Montenegro</p>
+          <p className="dedication">August 27 – September 12, 2026 · Italy · Croatia · Montenegro</p>
         </div>
       </section>
 
@@ -143,20 +143,20 @@ export function Presentation({ setSectionRef }) {
             <div className="path-card">
               <h4>Slow down</h4>
               <p>
-                Stretch Lake Como through Sunday, linger on the Adriatic past Sep 9, or trade a Dolomites hike for a long
+                Stretch Lake Como through Sunday, linger on the Adriatic past September 9, or trade a Dolomites hike for a long
                 lunch. Less &quot;seeing Europe,&quot; more <em>being</em> there together.
               </p>
             </div>
             <div className="path-card">
               <h4>See more</h4>
               <p>
-                Keep the pace, add Braies, extend Dubrovnik into Sep 7, squeeze in Ravello on the Amalfi days. If
+                Keep the pace, add Braies, extend Dubrovnik into September 7, squeeze in Ravello on the Amalfi days. If
                 we&apos;re both energized, we ride the momentum.
               </p>
             </div>
           </div>
           <p style={{ marginTop: '1.5rem' }}>
-            The Aug 27 departure and Sep 12 return? That&apos;s my best offer for how we start and end strong — but if
+            The August 27 departure and September 12 return? That&apos;s my best offer for how we start and end strong — but if
             you want different dates, we find them. I&apos;d rather have you excited than have a perfect calendar.
           </p>
         </div>

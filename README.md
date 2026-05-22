@@ -1,4 +1,4 @@
-# Jo & Alisha Adventures
+# Jolisha Adventures
 
 A scroll-snap presentation for our European adventure — built with React and Vite, hosted on GitHub Pages.
 

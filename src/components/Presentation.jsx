@@ -11,7 +11,7 @@ export function Presentation({ setSectionRef }) {
       <section className="hero" id="hero" ref={setSectionRef(0)}>
         <div className="hero-bg" role="img" aria-label="Lake Como, Italy" style={{ backgroundImage: `url('${HERO_IMAGE}')` }} />
         <div className="inner">
-          <p className="dedication">Made with 🤍, for Alisha</p>
+          <p className="dedication">Made with 🤍 for Alisha</p>
           <h1>Our European Adventure</h1>
           <p className="subtitle">Milan to Naples — and every beautiful detour in between</p>
           <p className="dedication">Aug 27 – Sep 12, 2026 · Italy · Croatia · Montenegro</p>

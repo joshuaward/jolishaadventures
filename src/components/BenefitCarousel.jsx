@@ -8,7 +8,7 @@ export function BenefitCarousel({ items }) {
 
   const getScrollStep = useCallback(() => {
     const track = trackRef.current;
-    const card = track?.querySelector('.benefit-card');
+    const card = track?.querySelector('.benefit-carousel__card');
     if (!track || !card) return track?.clientWidth ?? 0;
     const gap = parseFloat(getComputedStyle(track).gap) || 20;
     return card.offsetWidth + gap;
@@ -45,16 +45,16 @@ export function BenefitCarousel({ items }) {
     <div className="benefit-carousel">
       <button
         type="button"
-        className="benefit-carousel-btn benefit-carousel-prev"
+        className="benefit-carousel__btn benefit-carousel__btn--prev"
         aria-label="Previous highlight"
         onClick={() => scroll(-1)}
         disabled={!canGoPrev}
       >
         <ChevronLeft />
       </button>
-      <div className="benefit-track" ref={trackRef} tabIndex={0}>
+      <div className="benefit-carousel__track" ref={trackRef} tabIndex={0}>
         {items.map((item) => (
-          <div className="benefit-card" key={item.title}>
+          <div className="benefit-carousel__card" key={item.title}>
             <h4>{item.title}</h4>
             <p>
               {item.strong ? (
@@ -72,7 +72,7 @@ export function BenefitCarousel({ items }) {
       </div>
       <button
         type="button"
-        className="benefit-carousel-btn benefit-carousel-next"
+        className="benefit-carousel__btn benefit-carousel__btn--next"
         aria-label="Next highlight"
         onClick={() => scroll(1)}
         disabled={!canGoNext}

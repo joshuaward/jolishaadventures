@@ -1,24 +1,14 @@
-import { Presentation, SLIDE_COUNT } from './components/Presentation';
-import { ProgressBar } from './components/ProgressBar';
-import { SlideNav } from './components/SlideNav';
-import { useSlideNavigation } from './hooks/useSlideNavigation';
+import { Route, Routes } from 'react-router-dom';
+import { LandingPage } from './pages/LandingPage';
+import { OptionAPage } from './pages/OptionAPage';
+import { OptionBPage } from './pages/OptionBPage';
 
 export default function App() {
-  const { progress, setSectionRef, goTo, currentIndex, canGoPrev, canGoNext } =
-    useSlideNavigation(SLIDE_COUNT);
-
   return (
-    <>
-      <ProgressBar progress={progress} />
-      <SlideNav
-        onPrev={() => goTo(currentIndex - 1)}
-        onNext={() => goTo(currentIndex + 1)}
-        canGoPrev={canGoPrev}
-        canGoNext={canGoNext}
-      />
-      <main>
-        <Presentation setSectionRef={setSectionRef} />
-      </main>
-    </>
+    <Routes>
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/option-a" element={<OptionAPage />} />
+      <Route path="/option-b" element={<OptionBPage />} />
+    </Routes>
   );
 }

@@ -1,0 +1,88 @@
+@use '../abstracts/mixins' as *;
+
+.benefit-carousel {
+  position: relative;
+  margin: 2rem 0;
+
+  &__track {
+    display: flex;
+    gap: 1.25rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding: 0.25rem 2.75rem 1rem;
+    margin: 0 -2.75rem;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: var(--terracotta-soft) var(--cream-dark);
+
+    &::-webkit-scrollbar { height: 6px; }
+    &::-webkit-scrollbar-thumb {
+      background: var(--terracotta-soft);
+      border-radius: 3px;
+    }
+  }
+
+  &__card {
+    flex: 0 0 min(300px, 78vw);
+    scroll-snap-align: start;
+    padding: 1.5rem;
+    background: #fff;
+    border: 1px solid var(--cream-dark);
+
+    h4 {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+      color: var(--terracotta);
+    }
+
+    p { font-size: 0.9rem; }
+  }
+
+  &__btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2.25rem;
+    height: 2.25rem;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: var(--terracotta);
+    color: #fff;
+    opacity: 0.7;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    transition: opacity var(--transition);
+
+    svg {
+      width: 1rem;
+      height: 1rem;
+      stroke: currentColor;
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    &--prev { left: 0; }
+    &--next { right: 0; }
+
+    &:hover:not(:disabled) { opacity: 1; }
+    &:disabled { opacity: 0.35; cursor: not-allowed; }
+  }
+
+  @include mobile {
+    &__track {
+      margin: 0;
+      padding: 0.25rem 0 1rem;
+    }
+
+    &__btn { display: none; }
+    &__card { flex: 0 0 min(280px, 88vw); }
+  }
+}

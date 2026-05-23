@@ -92,7 +92,7 @@ export const destinations = [
   },
   {
     id: 'drive-refugio-friedrich-august',
-    className: 'alt-bg',
+    className: 'alt',
     reverse: true,
     eyebrow: 'Stop 2 · The scenic transition',
     title: 'Drive to Refugio Friedrich August',
@@ -126,7 +126,7 @@ export const destinations = [
   },
   {
     id: 'venice',
-    className: 'alt-bg',
+    className: 'alt',
     reverse: true,
     eyebrow: 'Stop 4 · The floating city',
     title: 'Venice',
@@ -162,7 +162,7 @@ export const destinations = [
   },
   {
     id: 'montenegro',
-    className: 'alt-bg',
+    className: 'alt',
     reverse: true,
     eyebrow: 'Stop 6 · Day trip',
     title: 'Herceg Novi, Montenegro',
@@ -196,7 +196,7 @@ export const destinations = [
   },
   {
     id: 'amalfi',
-    className: 'alt-bg',
+    className: 'alt',
     reverse: true,
     eyebrow: 'Stop 8 · Grand finale',
     title: 'Naples & the Amalfi Coast',

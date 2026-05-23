@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
-import { benefits, calendarDays, destinations, timelineItems } from '../data/content';
+import { benefits, calendarDays, destinations, timelineItems } from '../data/content-option2';
 import { BenefitCarousel } from './BenefitCarousel';
 import { SplitSlide } from './SplitSlide';
 
 const HERO_IMAGE =
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Sentiero_del_Viandante_DSC_6340_%2814020554463%29.jpg/1280px-Sentiero_del_Viandante_DSC_6340_%2814020554463%29.jpg';
+  'https://images.pexels.com/photos/10361190/pexels-photo-10361190.jpeg?auto=compress&cs=tinysrgb&w=1280';
 
-export function Presentation({ setSectionRef }) {
+export function PresentationOption2({ setSectionRef }) {
   return (
     <>
       <section className="slide hero" id="hero" ref={setSectionRef(0)}>
@@ -19,8 +19,8 @@ export function Presentation({ setSectionRef }) {
         <div className="slide__inner">
           <p className="hero__dedication">Made with 🤍 for Alisha</p>
           <h1>Our European Adventure</h1>
-          <p className="hero__subtitle">Milan to Naples — and every beautiful detour in between</p>
-          <p className="hero__dedication">August 27 – September 12, 2026 · Italy · Croatia · Montenegro</p>
+          <p className="hero__subtitle">Milan to Naples — peak to coast, no detours needed</p>
+          <p className="hero__dedication">August 27 – September 12, 2026 · Italy, cover to coast</p>
           <Link to="/" className="hero__switch-link">← Back to all options</Link>
         </div>
       </section>
@@ -33,8 +33,8 @@ export function Presentation({ setSectionRef }) {
           </h2>
           <p className="lead">
             Leaving Thursday isn&apos;t just about a softer landing — it&apos;s how we fit in <em>all</em> of this:
-            alpine lakes, mountain ridgelines, a floating city, the Adriatic, hidden Puglia, and the Amalfi Coast,
-            without living on red-eye fumes or racing the workweek.
+            alpine lakes, three full days in the Dolomites, a floating city, hidden Puglia, and five days on the Amalfi
+            Coast, without living on red-eye fumes or racing the workweek.
           </p>
 
           <BenefitCarousel items={benefits} />
@@ -106,8 +106,8 @@ export function Presentation({ setSectionRef }) {
           <p className="eyebrow">The route — proposed, not locked</p>
           <h2>Our journey, stop by stop</h2>
           <p className="lead">
-            One rental car through northern Italy, then planes, trains, and ferries as we drift south and across the
-            Adriatic. Every leg is one-way — so we can slow down or skip ahead without breaking the trip.
+            One rental car through northern Italy, then planes, trains, and ferries as we drift south. Every leg is
+            one-way — so we can slow down or skip ahead without breaking the trip.
           </p>
           <div className="timeline">
             {timelineItems.map((item) => {
@@ -140,7 +140,7 @@ export function Presentation({ setSectionRef }) {
         </section>
       ))}
 
-      <section id="flexibility" className="slide" ref={setSectionRef(12)}>
+      <section id="flexibility" className="slide" ref={setSectionRef(10)}>
         <div className="slide__inner">
           <p className="eyebrow">Your trip, our trip</p>
           <h2>This is a proposal — not a prison</h2>
@@ -152,15 +152,15 @@ export function Presentation({ setSectionRef }) {
             <div className="paths__card">
               <h4>Slow down</h4>
               <p>
-                Stretch Lake Como through Sunday, linger on the Adriatic past September 9, or trade a Dolomites hike for a long
-                lunch. Less &quot;seeing Europe,&quot; more <em>being</em> there together.
+                Stretch Lake Como through Sunday, linger an extra night in the Dolomites, or trade a Vesuvius hike for a
+                long lunch in Positano. Less &quot;seeing Italy,&quot; more <em>being</em> there together.
               </p>
             </div>
             <div className="paths__card">
               <h4>See more</h4>
               <p>
-                Keep the pace, add Braies, extend Dubrovnik into September 7, squeeze in Ravello on the Amalfi days. If
-                we&apos;re both energized, we ride the momentum.
+                Keep the pace, add Braies, extend Puglia into September 8, squeeze in Ischia on one of the Amalfi days.
+                If we&apos;re both energized, we ride the momentum.
               </p>
             </div>
           </div>
@@ -171,7 +171,7 @@ export function Presentation({ setSectionRef }) {
         </div>
       </section>
 
-      <section id="closing" className="slide slide--closing" ref={setSectionRef(13)}>
+      <section id="closing" className="slide slide--closing" ref={setSectionRef(11)}>
         <div className="slide__inner">
           <p className="eyebrow" style={{ color: 'var(--terracotta-soft)' }}>
             For my favorite person
@@ -194,4 +194,4 @@ export function Presentation({ setSectionRef }) {
   );
 }
 
-export const SLIDE_COUNT = 14;
+export const SLIDE_COUNT = 12;

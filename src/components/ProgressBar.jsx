@@ -1,7 +1,7 @@
 export function ProgressBar({ progress }) {
   return (
-    <div className="progress-track">
-      <div className="progress-fill" style={{ width: `${progress}%` }} />
+    <div className="progress-bar">
+      <div className="progress-bar__fill" style={{ width: `${progress}%` }} />
     </div>
   );
 }

@@ -27,7 +27,7 @@ export function useSlideNavigation(sectionCount) {
       (entries) => {
         entries.forEach((entry) => {
           if (!entry.isIntersecting) return;
-          entry.target.classList.add('visible');
+          entry.target.classList.add('slide--visible');
           const index = sections.indexOf(entry.target);
           if (index >= 0) {
             setCurrentIndex(index);
@@ -39,7 +39,7 @@ export function useSlideNavigation(sectionCount) {
     );
 
     sections.forEach((section) => observer.observe(section));
-    sections[0]?.classList.add('visible');
+    sections[0]?.classList.add('slide--visible');
 
     return () => observer.disconnect();
   }, [sectionCount]);

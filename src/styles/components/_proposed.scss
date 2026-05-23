@@ -1,0 +1,12 @@
+.proposed {
+  margin-top: 1.25rem;
+  padding: 1rem 1.25rem;
+  background: var(--sage-light);
+  border-left: 3px solid var(--sage);
+  font-size: 0.9rem;
+
+  strong {
+    font-weight: 600;
+    color: var(--charcoal);
+  }
+}

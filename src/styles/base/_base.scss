@@ -1,0 +1,19 @@
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: 300;
+  color: var(--charcoal);
+  background: var(--ivory);
+  line-height: 1.65;
+  overflow-x: hidden;
+}
+
+@media print {
+  html {
+    scroll-snap-type: none;
+  }
+}

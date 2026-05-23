@@ -6,8 +6,7 @@ export function SlideNav({ onPrev, onNext, canGoPrev, canGoNext }) {
       <nav className="slide-nav" aria-label="Slide navigation">
         <button
           type="button"
-          className="nav-btn"
-          id="nav-prev"
+          className="slide-nav__btn slide-nav__btn--prev"
           aria-label="Previous slide"
           onClick={onPrev}
           disabled={!canGoPrev}
@@ -16,8 +15,7 @@ export function SlideNav({ onPrev, onNext, canGoPrev, canGoNext }) {
         </button>
         <button
           type="button"
-          className="nav-btn"
-          id="nav-next"
+          className="slide-nav__btn slide-nav__btn--next"
           aria-label="Next slide"
           onClick={onNext}
           disabled={!canGoNext}
@@ -25,7 +23,7 @@ export function SlideNav({ onPrev, onNext, canGoPrev, canGoNext }) {
           <ChevronDown />
         </button>
       </nav>
-      <div className="nav-hint">Scroll or use arrow keys</div>
+      <div className="slide-nav__hint">Scroll or use arrow keys</div>
     </>
   );
 }

@@ -1,0 +1,9 @@
+.promise-list {
+  margin: 1.5rem 0;
+
+  &__item {
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--cream-dark);
+    list-style: none;
+  }
+}

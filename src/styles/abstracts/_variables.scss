@@ -1,0 +1,15 @@
+:root {
+  --ivory: #f8f5f0;
+  --charcoal: #2c2a28;
+  --terracotta: #b85c38;
+  --terracotta-soft: #d4846a;
+  --sage: #6b7f6a;
+  --sage-light: #e8ede7;
+  --cream-dark: #ebe6de;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Source Sans 3', system-ui, sans-serif;
+  --transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+$bp-mobile: 768px;
+$bp-landing: 660px;

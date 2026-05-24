@@ -32,9 +32,9 @@ export function Presentation({ setSectionRef }) {
             Why leave on <span className="accent">Thursday, August 27</span>?
           </h2>
           <p className="lead">
-            Leaving Thursday isn&apos;t just about a softer landing — it&apos;s how we fit in <em>all</em> of this:
-            alpine lakes, mountain ridgelines, a floating city, the Adriatic, hidden Puglia, and the Amalfi Coast,
-            without living on red-eye fumes or racing the workweek.
+            Leaving Thursday isn&apos;t just about a softer landing — it&apos;s what makes three countries possible.
+            Italy from the lakes, Croatia across the Adriatic, Montenegro for one afternoon, then back to the south of
+            Italy for the finale. This is the trip that crosses a sea. It needs the day.
           </p>
 
           <BenefitCarousel items={benefits} />
@@ -106,8 +106,8 @@ export function Presentation({ setSectionRef }) {
           <p className="eyebrow">The route — proposed, not locked</p>
           <h2>Our journey, stop by stop</h2>
           <p className="lead">
-            One rental car through northern Italy, then planes, trains, and ferries as we drift south and across the
-            Adriatic. Every leg is one-way — so we can slow down or skip ahead without breaking the trip.
+            One rental car through northern Italy, then a one-way flight east across the Adriatic — Croatia, a day in
+            Montenegro, then back to Italy's south. Every leg moves us forward. No loops, no retracing, no dead ends.
           </p>
           <div className="timeline">
             {timelineItems.map((item) => {
@@ -145,22 +145,22 @@ export function Presentation({ setSectionRef }) {
           <p className="eyebrow">Your trip, our trip</p>
           <h2>This is a proposal — not a prison</h2>
           <p className="lead">
-            What you&apos;re seeing is a jam-packed dream list. We can edit, cut, or stretch anything. One-way flights
-            and trains mean we&apos;re never trapped — only invited.
+            What you&apos;re seeing is the grand version — three countries, eight stops, one sea crossing. We can pull
+            back anywhere. One-way legs mean we&apos;re never trapped by our own ambition.
           </p>
           <div className="paths">
             <div className="paths__card">
-              <h4>Slow down</h4>
+              <h4>Pull back</h4>
               <p>
-                Stretch Lake Como through Sunday, linger on the Adriatic past September 9, or trade a Dolomites hike for a long
-                lunch. Less &quot;seeing Europe,&quot; more <em>being</em> there together.
+                Skip Montenegro, stretch Dubrovnik to four nights instead, or trade a Dolomites hike for a long lunch at
+                the rifugio. Three countries become two — still extraordinary, just quieter.
               </p>
             </div>
             <div className="paths__card">
-              <h4>See more</h4>
+              <h4>Push further</h4>
               <p>
-                Keep the pace, add Braies, extend Dubrovnik into September 7, squeeze in Ravello on the Amalfi days. If
-                we&apos;re both energized, we ride the momentum.
+                Extend Dubrovnik into September 7, add Hvar by boat, squeeze Ravello into the Amalfi days, catch a
+                sunset from Capri. If we&apos;re both energized, the Adriatic keeps giving.
               </p>
             </div>
           </div>

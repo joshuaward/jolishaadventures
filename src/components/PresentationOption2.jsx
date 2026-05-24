@@ -32,9 +32,9 @@ export function PresentationOption2({ setSectionRef }) {
             Why leave on <span className="accent">Thursday, August 27</span>?
           </h2>
           <p className="lead">
-            Leaving Thursday isn&apos;t just about a softer landing — it&apos;s how we fit in <em>all</em> of this:
-            alpine lakes, three full days in the Dolomites, a floating city, hidden Puglia, and five days on the Amalfi
-            Coast, without living on red-eye fumes or racing the workweek.
+            Leaving Thursday isn&apos;t just about the soft landing — it&apos;s what makes the depth possible. Three full
+            days in the Dolomites instead of two. Five days on the Amalfi instead of three. Time to actually sit at Lago
+            di Braies, actually linger in Positano. This is Italy the way it deserves to be done.
           </p>
 
           <BenefitCarousel items={benefits} />
@@ -106,8 +106,8 @@ export function PresentationOption2({ setSectionRef }) {
           <p className="eyebrow">The route — proposed, not locked</p>
           <h2>Our journey, stop by stop</h2>
           <p className="lead">
-            One rental car through northern Italy, then planes, trains, and ferries as we drift south. Every leg is
-            one-way — so we can slow down or skip ahead without breaking the trip.
+            One rental car through the north, then planes and trains as we move south through Italy — start to finish,
+            no country crossings, no retracing. One country, six unforgettable regions, every leg moving us forward.
           </p>
           <div className="timeline">
             {timelineItems.map((item) => {
@@ -145,22 +145,22 @@ export function PresentationOption2({ setSectionRef }) {
           <p className="eyebrow">Your trip, our trip</p>
           <h2>This is a proposal — not a prison</h2>
           <p className="lead">
-            What you&apos;re seeing is a jam-packed dream list. We can edit, cut, or stretch anything. One-way flights
-            and trains mean we&apos;re never trapped — only invited.
+            What you&apos;re seeing is already a considered, generous version of Italy. We can trim, stretch, or
+            rearrange anything. One-way flights mean we&apos;re never locked in — only invited further south.
           </p>
           <div className="paths">
             <div className="paths__card">
-              <h4>Slow down</h4>
+              <h4>Go even slower</h4>
               <p>
-                Stretch Lake Como through Sunday, linger an extra night in the Dolomites, or trade a Vesuvius hike for a
-                long lunch in Positano. Less &quot;seeing Italy,&quot; more <em>being</em> there together.
+                Add a third night on Lake Como, skip one Dolomites hike for a rifugio afternoon, turn Puglia into four
+                days instead of three. Less itinerary, more <em>living</em> in the places.
               </p>
             </div>
             <div className="paths__card">
-              <h4>See more</h4>
+              <h4>Squeeze in more</h4>
               <p>
-                Keep the pace, add Braies, extend Puglia into September 8, squeeze in Ischia on one of the Amalfi days.
-                If we&apos;re both energized, we ride the momentum.
+                Add Ischia on an Amalfi day, extend Puglia to take in Lecce or Ostuni, sneak in a Herculaneum morning
+                alongside Pompeii. If we&apos;re energized, the south keeps giving.
               </p>
             </div>
           </div>

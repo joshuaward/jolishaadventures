@@ -9,7 +9,7 @@ export const benefits = [
   },
   {
     title: 'Three full days in the Dolomites',
-    text: "Seceda's ridgeline, Lago di Carezza's emerald mirror, Lago di Braies without a queue, Val di Funes and the Ranui Chapel — two nights at altitude and actually enough time. The Dolomites deserve more than a drive-through.",
+    text: "Seceda's ridgeline, Lago di Carezza's emerald mirror, Lago di Braies without a queue, Val di Funes and the Ranui Chapel — two nights at Hotel Schmuckhof in Chiusa, donuts at Rifugio Friedrich August, and actually enough time. The Dolomites deserve more than a drive-through.",
   },
   {
     title: 'Venice without an exit looming',
@@ -79,19 +79,19 @@ export const destinations = [
     imageAlt: 'Hillside villages on Lake Como, Lombardy Italy',
   },
   {
-    id: 'drive-refugio-friedrich-august',
+    id: 'drive-chiusa',
     className: 'alt',
     reverse: true,
     eyebrow: 'Stop 2 · The scenic passage',
-    title: 'Drive to Rifugio Friedrich August',
-    lead: "Sunday we leave the lake for one of the most beautiful drives in Europe — the longer alpine route, dipping through Switzerland past glacial lakes before crossing back into Italy through the mountain passes. No deadline. No flight to catch at the other end. Just the road, the peaks, and us.",
+    title: 'Drive to Chiusa, Italy',
+    lead: "Sunday we leave the lake for one of the most beautiful drives in Europe — the longer alpine route, dipping through Switzerland past glacial lakes before crossing back into Italy through the mountain passes to Chiusa, where we settle in at Hotel Schmuckhof. No deadline. No flight to catch at the other end. Just the road, the peaks, and us.",
     highlights: [
       'Windows down through the Swiss alpine pass — no phones, just scenery',
       'Glacial lakes glinting through the trees on the Swiss stretch',
-      'Canederli and speck for dinner in a mountain hut below the Dolomites',
-      'Arrive at Rifugio Friedrich August — peaks that rise like cathedrals of stone',
+      'Canederli and speck for dinner in the Dolomites foothills',
+      'Arrival in Chiusa — Hotel Schmuckhof as our base in the peaks',
     ],
-    proposed: 'Sunday, August 30 · scenic drive (4h 20m) from Como through Switzerland to the Dolomites',
+    proposed: 'Sunday, August 30 · scenic drive (4h 20m) from Como through Switzerland to Chiusa, Italy',
     image:
       'https://images.pexels.com/photos/32636308/pexels-photo-32636308.jpeg?auto=compress&cs=tinysrgb&w=1280',
     imageAlt: 'Remote mountain hut perched on rocky Dolomite peaks',
@@ -100,13 +100,14 @@ export const destinations = [
     id: 'dolomites',
     eyebrow: 'Stop 3 · Three mountain days',
     title: 'The Italian Dolomites',
-    lead: "Three full days in the peaks — and this time, actually enough of them. Seceda when the ridgeline breathes in morning light. Lago di Carezza's emerald mirror. Lago di Braies without the crowd pressure. Val di Funes and the Ranui Chapel that ends up on everyone's dream board. Two nights at altitude. No skipping. Just mountains.",
+    lead: "Three full days in the peaks — and this time, actually enough of them. Seceda when the ridgeline breathes in morning light. Lago di Carezza's emerald mirror. Lago di Braies without the crowd pressure. Val di Funes and the Ranui Chapel that ends up on everyone's dream board. Two nights at Hotel Schmuckhof in Chiusa, a stop at Rifugio Friedrich August for their legendary donuts. No skipping. Just mountains.",
     highlights: [
       'Seceda ridgeline hike — the famous "ocean of peaks" panorama',
       'Lago di Carezza (Karersee) — rainbow lake, a short loop that earns its reputation',
       "Lago di Braies — the postcard lake, finally with time to actually sit at it",
       'Val di Funes & the Ranui Chapel — the Dolomites shot everyone dreams about',
-      'Two nights at Rifugio Friedrich August + their legendary donuts',
+      'Overnight at Hotel Schmuckhof in Chiusa — cozy base for Dolomites day hikes',
+      'Rifugio Friedrich August — their famous donuts at altitude',
     ],
     proposed: 'Sunday–Wednesday, August 30–September 2 · three full days in the peaks',
     image:

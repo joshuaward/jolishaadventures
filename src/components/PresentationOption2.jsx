@@ -33,8 +33,8 @@ export function PresentationOption2({ setSectionRef }) {
           </h2>
           <p className="lead">
             Leaving Thursday isn&apos;t just about the soft landing — it&apos;s what makes the depth possible. Three full
-            days in the Dolomites instead of two. Five days on the Amalfi instead of three. Time to actually sit at Lago
-            di Braies, actually linger in Positano. This is Italy the way it deserves to be done.
+            days in the Dolomites. Three days in Venice. Four days on the Amalfi. Time to actually sit at Lago di
+            Braies, wake up slow in Venice, linger in Positano. This is Italy the way it deserves to be done.
           </p>
 
           <BenefitCarousel items={benefits} />

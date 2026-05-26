@@ -12,16 +12,16 @@ export const benefits = [
     text: "Seceda's ridgeline, Lago di Carezza's emerald mirror, Lago di Braies without a queue, Val di Funes and the Ranui Chapel — two nights at Hotel Schmuckhof in Chiusa, donuts at Rifugio Friedrich August, and actually enough time. The Dolomites deserve more than a drive-through.",
   },
   {
-    title: 'Venice without an exit looming',
-    text: "Drop the rental and live on foot and vaporetto for two days — gondolas at golden hour, cicchetti in the bacari, getting lost in Castello. No Thursday flight to catch. Just the city.",
+    title: 'Three days in Venice',
+    text: "Drop the rental and live on foot and vaporetto for three full days — gondolas at golden hour, cicchetti in the bacari, Castello until we're genuinely lost. No next-day flight looming. Just the city, properly.",
   },
   {
     title: "Puglia's Adriatic coast",
     text: "Polignano's white cliffs above turquoise water, Lama Monachile beach, orecchiette made in doorways on Bari's old streets — the heel of Italy before the rest of the world catches on.",
   },
   {
-    title: 'Five days on the Amalfi',
-    text: "Vesuvius at the crater rim. Pompeii under your feet. Positano's pastel cliffs. A boat day to Capri. Ravello's Terrace of Infinity. A slow morning in Amalfi town with nowhere else to be. Five days is the difference between ticking boxes and living it.",
+    title: 'Four days on the Amalfi',
+    text: "Vesuvius at the crater rim. Pompeii under your feet. Positano's pastel cliffs. A boat day to Capri. A slow morning in Amalfi town with nowhere else to be. Still more coast than most people ever get — and still more than Option A.",
   },
   {
     title: 'One-way all the way',
@@ -42,11 +42,11 @@ export const calendarDays = [
   { dayName: 'Fri–Sun', dayDate: 'Aug 28–30', dayLabel: 'Lake Como weekend' },
   { dayName: 'Sun–Wed', dayDate: 'Aug 30–Sep 2', dayLabel: 'Three days in the Dolomites' },
   { dayName: 'Wed', dayDate: 'Sep 2', dayLabel: 'Drive to Venice' },
-  { dayName: 'Wed–Fri', dayDate: 'Sep 2–4', dayLabel: 'Explore the floating city' },
-  { dayName: 'Fri', dayDate: 'Sep 4', dayLabel: 'One-way flight to Bari, Italy' },
-  { dayName: 'Fri–Mon', dayDate: 'Sep 4–7', dayLabel: 'Puglia, Adriatic coast' },
-  { dayName: 'Mon', dayDate: 'Sep 7', dayLabel: 'Flight or train to Naples' },
-  { dayName: 'Mon–Sat', dayDate: 'Sep 7–12', dayLabel: 'Five days on the Amalfi Coast' },
+  { dayName: 'Wed–Sat', dayDate: 'Sep 2–5', dayLabel: 'Explore the floating city' },
+  { dayName: 'Sat', dayDate: 'Sep 5', dayLabel: 'One-way flight to Bari, Italy' },
+  { dayName: 'Sat–Tue', dayDate: 'Sep 5–8', dayLabel: 'Puglia, Adriatic coast' },
+  { dayName: 'Tue', dayDate: 'Sep 8', dayLabel: 'Flight or train to Naples' },
+  { dayName: 'Tue–Sat', dayDate: 'Sep 8–12', dayLabel: 'Amalfi Coast' },
   { dayName: 'Sat', dayDate: 'Sep 12', dayLabel: 'Fly home from Naples', variant: 'highlight' },
   { dayName: 'Sun', dayDate: 'Sep 13', dayLabel: 'Recovery day — together', variant: 'sage' },
 ];
@@ -54,9 +54,9 @@ export const calendarDays = [
 export const timelineItems = [
   { num: '1', text: 'Milan → Lake Como — Friday, August 28 arrive & drive north · weekend August 28–30' },
   { num: '2', text: 'Scenic drive → Dolomites — Sunday, August 30 · three full days August 30–September 2' },
-  { num: '3', text: 'Venice — drive Wednesday, September 2 · explore September 2–4 · drop the car' },
-  { num: '4', text: 'Bari & the Adriatic coast — flight Friday, September 4 · Puglia September 4–7' },
-  { num: '5', text: 'Naples & the Amalfi Coast — Monday, September 7 · five days September 7–11' },
+  { num: '3', text: 'Venice — drive Wednesday, September 2 · explore September 2–5 · drop the car' },
+  { num: '4', text: 'Bari & the Adriatic coast — flight Saturday, September 5 · Puglia September 5–8' },
+  { num: '5', text: 'Naples & the Amalfi Coast — Tuesday, September 8 · Amalfi September 8–11' },
   { num: '6', text: 'Fly home from Naples — Saturday, September 12 · Sunday, September 13 to recover' },
 ];
 
@@ -120,7 +120,7 @@ export const destinations = [
     reverse: true,
     eyebrow: 'Stop 4 · The floating city',
     title: 'Venice',
-    lead: "Wednesday we drive in and drop the rental for good. Two days in the canals — and no flight to Croatia waiting Thursday morning. A gondola at golden hour through the quiet back channels. Cicchetti and house wine in the bacari of Cannaregio. Wandering Castello until we're completely lost and entirely happy.",
+    lead: "Wednesday we drive in and drop the rental for good. Three days in the canals — a gondola at golden hour, cicchetti and house wine in the bacari of Cannaregio, getting lost in Castello, and actually enough mornings to wake up slow before we fly south Saturday.",
     highlights: [
       'Drop the rental for good — foot and vaporetto from here',
       'Gondola at golden hour through the quiet back canals',
@@ -128,7 +128,7 @@ export const destinations = [
       'Rialto Market in the morning, cicchetti crawl through Cannaregio by evening',
       'Get lost in Castello — the neighborhood tourists always skip',
     ],
-    proposed: 'September 2–4 · Wednesday–Friday in the floating city · fly to Puglia Friday',
+    proposed: 'September 2–5 · Wednesday–Saturday in the floating city · fly to Puglia Saturday',
     image:
       'https://images.pexels.com/photos/3791013/pexels-photo-3791013.jpeg?auto=compress&cs=tinysrgb&w=1280',
     imageAlt: 'Gondolas on a narrow canal with arched bridge, Venice Italy',
@@ -137,14 +137,14 @@ export const destinations = [
     id: 'puglia',
     eyebrow: 'Stop 5 · The undiscovered heel',
     title: 'Bari & Polignano a Mare',
-    lead: "Friday we fly one-way from Venice to Bari — a different Italy than the one we just left. Polignano a Mare: a whitewashed medieval city perched above sea-green water, centuries of buildings stacked against the cliff edge. Bari vecchia: grandmothers in doorways rolling orecchiette by hand. Three slow days before the Amalfi finale.",
+    lead: "Saturday we fly one-way from Venice to Bari — a different Italy than the one we just left. Polignano a Mare: a whitewashed medieval city perched above sea-green water, centuries of buildings stacked against the cliff edge. Bari vecchia: grandmothers in doorways rolling orecchiette by hand. Three slow days before the Amalfi finale.",
     highlights: [
       'Polignano a Mare — white Adriatic city above turquoise sea cliffs',
       'Lama Monachile beach — swim in the cove under the old town',
       'Bari Old Town — fresh pasta made in plain sight on the street',
       'Three unhurried days — on purpose, before the coast gets loud',
     ],
-    proposed: 'September 4–7 · Friday–Monday · fly in from Venice, three days on the Adriatic coast',
+    proposed: 'September 5–8 · Saturday–Tuesday · fly in from Venice, three days on the Adriatic coast',
     image:
       'https://images.pexels.com/photos/17697735/pexels-photo-17697735.jpeg?auto=compress&cs=tinysrgb&w=1280',
     imageAlt: 'Aerial view of Polignano a Mare cliffs and whitewashed buildings, Puglia',
@@ -155,7 +155,7 @@ export const destinations = [
     reverse: true,
     eyebrow: "Stop 6 · Italy's loudest argument",
     title: 'Naples & the Amalfi Coast',
-    lead: "Monday we reach Naples — and Italy saves its most extravagant case for last. Five days to do it properly: Vesuvius from the crater rim, Pompeii at your feet, Positano's pastel cliffs, a lazy afternoon on a Capri boat, Ravello's Terrace of Infinity, and a slow morning in Amalfi town with coffee and nowhere to be. Five days is the difference between ticking a box and actually living it.",
+    lead: "Tuesday we reach Naples — and Italy saves its most extravagant case for last. Four days to make them count: Vesuvius from the crater rim, Pompeii at your feet, Positano's pastel cliffs, a boat day to Capri, and a slow morning in Amalfi town with coffee and nowhere to be.",
     highlights: [
       'Mt. Vesuvius summit hike — crater views over the whole bay',
       'Pompeii or Herculaneum — two thousand years under your feet',
@@ -164,7 +164,7 @@ export const destinations = [
       'Ravello — Villa Cimbrone gardens and the Terrace of Infinity',
       'A slow morning in Amalfi town — the Duomo, the paper shops, limoncello',
     ],
-    proposed: 'September 7–11 · Monday–Friday on the Amalfi Coast · fly home Saturday, September 12',
+    proposed: 'September 8–11 · Tuesday–Friday on the Amalfi Coast · fly home Saturday, September 12',
     image:
       'https://images.pexels.com/photos/6767884/pexels-photo-6767884.jpeg?auto=compress&cs=tinysrgb&w=1280',
     imageAlt: 'Aerial view of Positano cliffs and deep blue sea, Amalfi Coast',
